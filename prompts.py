@@ -102,9 +102,22 @@ Create a final review in markdown format with the following sections:
 - Destination(s):
 - Travel Dates:
 - Budget:
-# Flights
-- departure flight
-- return flight
 
-# Accommodation (per destination if multiple
+# Flights
+- Departure flight: airline, time, stops, price
+- Return flight: airline, time, stops, price
+
+# Accommodation
+Per destination if multiple destinations:
+- Hotel name, location, nightly rate, total cost, rating
+
+# Budget Breakdown
+- Flights total:
+- Accommodation total:
+- Remaining budget for activities:
+
+# Day-by-Day Itinerary
+A brief day-by-day plan based on the travel dates, destinations, and user interests.
+
+Use the actual data returned by the flight and hotel agents. Do not invent information.
 """
