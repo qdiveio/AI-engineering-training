@@ -1,15 +1,18 @@
 # AI Engineering Training
 
-Hands-on training covering agentic AI design patterns using the OpenAI API (Azure-hosted). You will implement each pattern from scratch — no frameworks hiding the mechanics.
+Hands-on training covering agentic AI design patterns using the OpenAI API (Azure-hosted).
+
+The core patterns (reflection, tool use, planning) are implemented from scratch to expose the internal workings of agentic systems. A supplementary notebook showcases tool use within LangGraph. You will then apply what you've learned by building a multi-agent travel planner in a guided exercise notebook.
 
 ## Patterns Covered
 
-| # | Pattern | Notebook |
-|---|---------|----------|
-| 1 | Reflection | `notebooks/patterns.ipynb` |
-| 2 | Tool Use | `notebooks/patterns.ipynb` |
-| 3 | Planning | `notebooks/patterns.ipynb` |
-| 4 | Multi-Agent | `notebooks/multi_agent_travel_planner.ipynb` |
+| # | Pattern | Notebook | Format |
+|---|---------|----------|--------|
+| 1 | Reflection | `notebooks/patterns.ipynb` | Pre-built |
+| 2 | Tool Use | `notebooks/patterns.ipynb` | Pre-built |
+| 3 | Planning | `notebooks/patterns.ipynb` | Pre-built |
+| 4 | Tool Use (LangGraph) | `notebooks/tool_and_memory.ipynb` | Pre-built |
+| 5 | Multi-Agent | `notebooks/multi_agent_travel_planner-exercise.ipynb` | Guided exercise |
 
 ## Prerequisites
 
