@@ -10,13 +10,12 @@ Hands-on training covering agentic AI design patterns using the OpenAI API (Azur
 | 2 | Tool Use | `notebooks/patterns.ipynb` |
 | 3 | Planning | `notebooks/patterns.ipynb` |
 | 4 | Multi-Agent | `notebooks/multi_agent_travel_planner.ipynb` |
-| 5 | RAG (Self-Reflective) | `notebooks/tool_and_memory.ipynb` |
 
 ## Prerequisites
 
 - Python 3.13+
 - [uv](https://docs.astral.sh/uv/getting-started/installation/)
-- Access to an Azure OpenAI resource with a GPT-4o deployment
+- Access to an Azure OpenAI resource will be shared during the training
 - Git
 
 ## Setup
@@ -65,8 +64,7 @@ config.py          — LLM client configuration (Azure OpenAI)
 prompts.py         — System prompts for all agents
 tools.py           — Tool functions used in the tool-use pattern
 notebooks/         — Training notebooks (start here)
-specs/             — Detailed specs and guides for each pattern
-data/              — Data files for RAG exercises
+data/              — Data files for exercises
 ```
 
 ## Troubleshooting
